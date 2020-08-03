@@ -8,3 +8,5 @@ The Slack SDK for PHP is a library with powerful features that enable PHP develo
 Me personally actively use and maintain this package for a project https://thetopchat.com/.
 
 The library is using Slack OAuth v2 only.
+
+The library is unfinished and not ready to be used.
