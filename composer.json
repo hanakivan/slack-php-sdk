@@ -1,0 +1,23 @@
+{
+    "name": "hanakivan/slack-php-sdk",
+    "description": "The Slack SDK for PHP is a library with powerful features that enable PHP developers to easily integrate Slack APIs.",
+    "license" : "MIT",
+    "type" : "package",
+    "version": "0.0.1",
+    "authors": [
+        {
+            "name": "Ivan Hanak",
+            "email": "packagist@ivanhanak.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "hanakivan\\Slack\\": "src/hanakivan/Slack"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^7.3"
+    }
+}
