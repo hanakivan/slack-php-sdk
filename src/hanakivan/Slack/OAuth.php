@@ -17,9 +17,9 @@ namespace hanakivan\Slack;
 class OAuth {
     const BASE_LOGIN_URL = "https://slack.com/oauth/v2/authorize";
 
-    private $clientId;
-    private $clientSecret;
-    private $redirectUri;
+    public $clientId;
+    public $clientSecret;
+    public $redirectUri;
 
     public function __construct(string $clientId, string $clientSecret, string $redirectUri)
     {
