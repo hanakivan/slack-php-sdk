@@ -9,6 +9,8 @@
 
 namespace hanakivan\Slack;
 
+use App\Library\HttpRequest;
+
 /**
  * Class OAuth
  * @package hanakivan\Slack
